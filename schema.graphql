@@ -1,3 +1,9 @@
+type Commission @entity {
+  id: ID!
+  dex: BigInt!
+  dexPackable: BigInt!
+}
+
 type Order @entity {
   id: ID!
   orderId: String!
